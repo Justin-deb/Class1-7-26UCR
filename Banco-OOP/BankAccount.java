@@ -8,7 +8,7 @@ public class BankAccount{
     }
 
     public void showBalance(){
-        System.out.println(String.format("New balance for the account:%s is: %s", accountOwner, balance));
+        System.out.println(String.format("The balance for the account %s is: %s", accountOwner, balance));
     }
 
     public void deposit(double ammount){
